@@ -90,19 +90,19 @@ const data = {
       icon: Bot,
       items: [
         {
-          title: "Genesis",
+          title: "Heavy Weight",
           url: "#",
           icon: Rabbit,
           description: "Our fastest model for general use cases.",
         },
         {
-          title: "Explorer",
+          title: "Cruiser Weight",
           url: "#",
           icon: Bird,
           description: "Performance and speed for efficiency.",
         },
         {
-          title: "Quantum",
+          title: "Light Weight",
           url: "#",
           icon: Turtle,
           description: "The most powerful model for complex computations.",

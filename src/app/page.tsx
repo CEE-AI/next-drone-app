@@ -4,6 +4,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import MedicalSuppliesDeliveryDrone1 from '@/public/image/MedicalSuppliesDeliveryDrone1.png'
 
 export default function HomePage() {
   return (
@@ -60,12 +61,16 @@ export default function HomePage() {
           <div className="bg-blue-100 h-64 rounded-lg flex items-center justify-center">
             <Map className="w-12 h-12 text-blue-500" />
           </div>
-          <div className='grid w-screen h-screen grid-cols-3 grid-rows-2'>
-            <Link legacyBehavior href='/public/image/Medical-Supplies-Delivery-Drone-1'>
-              <a>
-                <Image src="/public/image/Medical-Supplies-Delivery-Drone-1.png" alt='drone-1' fill />
-              </a>
-            </Link>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <Image
+              alt = 'drone'
+              src={MedicalSuppliesDeliveryDrone1}
+              sizes="100vw"
+              style={{
+                width: '100%',
+                height: 'auto',
+              }}
+              />
           </div>
           </div>
         </section>
